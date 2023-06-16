@@ -114,6 +114,7 @@ class BarangController extends Controller
             [
                 'nama_produk.required' => 'Nama harus di isi',
                 'harga.numeric' => 'Harga harus berupa inputan angka',
+                'harga.required' => 'Harga harus di isi',
                 'kategori.required' => 'Kategori harus di isi',
                 'status.required' => 'Status harus di isi'
             ]
